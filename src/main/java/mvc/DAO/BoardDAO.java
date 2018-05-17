@@ -1,11 +1,11 @@
-package mvc.service;
+package mvc.DAO;
 
 import java.util.List;
 
 import mvc.DTO.Board;
 import mvc.DTO.Photo;
 
-public interface BoardService {
+public interface BoardDAO {
 	
 	public List getBoardList();
 	
@@ -35,8 +35,8 @@ public interface BoardService {
 	
 	public void photoDelete();
 	
-	public List getComments();
-	
 	public void updateRecommend();
+	
+	public List getComments();
 	
 }

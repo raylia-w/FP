@@ -16,4 +16,6 @@ public interface UserService {
 	
 	public void secessionMember();
 	
+	public void getMemberInfo();
+	
 }
